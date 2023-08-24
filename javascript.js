@@ -24,12 +24,16 @@ picNextBtn.addEventListener("click",function(){
 
 // pic Previous button click event//
 picPrevBtn.addEventListener("click",function(){
-    i-=1;
-    if(i<1){
-        img.setAttribute("src",totalPic+".jpg");
-        i=totalPic;
+    
+    if(i==1){
+        img.setAttribute("src","3.jpg");
+        i=3;
+    }else if(i==3){
+        img.setAttribute("src","2.jpg");
+        i=2;
     }else{
-        img.setAttribute("src",i+".jpg");
+        img.setAttribute("src","1.jpg");
+        i=1;
     }
 });
 
