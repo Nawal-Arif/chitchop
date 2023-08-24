@@ -10,13 +10,13 @@ var imgSrc = i+".jpg";
 picNextBtn.addEventListener("click",function(){
     
     if(i==1){
-        img.setAttribute("src","1.jpg");
+        img.setAttribute("src","2.jpg");
         i=2;
     }else if(i==2){
-        img.setAttribute("src","2.jpg");
+        img.setAttribute("src","3.jpg");
         i=3;
     }else{
-        img.setAttribute("src","3.jpg");
+        img.setAttribute("src","1.jpg");
         i=1;
     }
 });
