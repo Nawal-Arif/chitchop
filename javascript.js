@@ -2,7 +2,7 @@ var picNextBtn = document.querySelector(".pic .next");
 var picPrevBtn = document.querySelector(".pic .previous");
 
 var img = document.querySelector(".pic img");
-var i=1;
+var i=2;
 var totalPic=3;
 var imgSrc = i+".jpg";
 
