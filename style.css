@@ -46,18 +46,18 @@ div { padding: 35px 0 35px 0; margin: 0;}
 
 
 
+
 /* my work section */
 .MW { background-color: white; padding-top: 7rem;}
 .MW p{ width: 45%;}
 .MW div { background-color: white;}
-.MW button{ width: 10%; border-radius: 20px; border: 1px solid  #54BAB9;
-        background-color: white; padding-top: 5px;
-        font-family: 'Dongle', sans-serif; font-size: 2rem;}
+.MW button{ width: 35px; height: 35px;border-radius: 50px; border: 1px solid  black;
+        background-color: black; padding-top: 5px;}
 .pic img{ transition: opacity 2s;}
                 
 /* contact section */
 .C { display:flex; justify-content: center; 
-        align-items: center; padding-top: 10%; padding-bottom: 15%; }
+        align-items: center; padding-top: 6%; padding-bottom: 15%; }
 .item { flex-basis: 19rem;}
 .C h1 { margin-bottom: 30px;}
 .C button { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 5px;
@@ -65,22 +65,24 @@ div { padding: 35px 0 35px 0; margin: 0;}
                 border-radius: 15px; border: 0; color: white;
                 background-color: black; box-shadow: 0 0 5px black ;}
 .C a { text-decoration: none;}
-.C button:hover { background-color: white; color: black;}
-.C button:active { background-color: black; color: white;}
+.C button:hover { background-color: white; color: black; cursor: pointer;}
+.C button:active { background-color: black; color: white; cursor: pointer;}
 
 /* (mywork)*/
-.pic img{ width: 70%; border-radius: 20px;  box-shadow: 0px 0px 8px black;}
-.animations iframe{ width: 70%; height: 36rem; border-radius: 20px; border: 0;
+.pic img{ width: 60%; border-radius: 20px;  box-shadow: 0px 0px 8px black;}
+.animations iframe{ width: 60%; height: 36rem; border-radius: 20px; border: 0;
         box-shadow: 0px 0px 8px black;}
-.previous, .next {font-size: 2.5rem; margin: 0 20px 0 20px; color: #00425A;}
-.next:hover { color: #7C96AB;} 
-.previous:hover { color: #7C96AB;}
-.Web { padding-top: 20%;}
+.previous, .next {margin: 0 20px 0 20px;}
+.next:hover { border-color: #00425A; background-color: #00425A; color: white; cursor: pointer;} 
+.previous:hover { border-color: #00425A; background-color: #00425A; color: white; cursor: pointer;}
+.Web { padding-top: 8%;}
 
 
 /*.hide { display: none;}*/
 .A { display: inline-block;}
 .bold { font-weight: bold;}
+
+
 
 
 
